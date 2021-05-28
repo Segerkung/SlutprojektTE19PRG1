@@ -7,10 +7,15 @@ import java.awt.event.KeyEvent;
 
 public class Panel extends JPanel implements ActionListener {
 
-private final int width = 800;  //Storlek på spelrutan
-private final int height = 600;
+    static final int width = 800;  //Storlek på spelrutan
+    static final int height = 800;
+    static final int elementStorlek = 25
+    static final int spelElement = (width*height)/(elementStorlek)
 
- Panel(){
+
+
+
+    Panel(){
 
 
  }
@@ -33,6 +38,13 @@ private final int height = 600;
 
  }
  //måste fixa kollisioner också men glömt hur man gör det nu. Så ska fixa det senare då jag frågat om hur man gör.
+
+    private void drawOrm(Graphics g, int x, int y) {
+        g.setColor(Color.gray);
+        int[] xs = {x, 10 + x, 20 + x};
+        int[] ys = {30 + y, y, 30 + y};
+        g.fillRect(10 + x, 30 + y, 10, 10);
+    }
 
 
     @Override
