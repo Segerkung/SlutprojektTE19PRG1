@@ -14,8 +14,8 @@ public class Panel extends JPanel implements ActionListener{
     static final int spelElement = (width*height)/elementStorlek;
     static final int delay = 120;
 
-    final int x[] = new int[spelElement];
-    final int y[] = new int[spelElement];
+    final int[] x = new int[spelElement];
+    final int[] y = new int[spelElement];
 
     int ormDelar = 6;
     int matKonsumering;
@@ -26,7 +26,7 @@ public class Panel extends JPanel implements ActionListener{
     Timer timer;
     Random random;
 
-    Panel(){
+    Panel() {
         random = new Random();
         this.setPreferredSize(new Dimension(width, height));
         this.setBackground(Color.BLACK);
@@ -54,13 +54,12 @@ public class Panel extends JPanel implements ActionListener{
 
             for(int i = 0; i< ormDelar;i++) {
                 if(i == 0) {
-                    g.setColor(Color.green  );
-                    g.fillRect(x[i], y[i], elementStorlek, elementStorlek);
+                    g.setColor(Color.green);
                 }
                 else {
                     g.setColor(new Color(45,180,0));
-                    g.fillRect(x[i], y[i], elementStorlek, elementStorlek);
                 }
+                g.fillRect(x[i], y[i], elementStorlek, elementStorlek);
             }
             g.setColor(Color.white);
             FontMetrics metrics = getFontMetrics(g.getFont());
@@ -72,8 +71,8 @@ public class Panel extends JPanel implements ActionListener{
 
     }
     public void nyMat(){
-        matX = random.nextInt((int)(width/elementStorlek))*elementStorlek;
-        matY = random.nextInt((int)(height/elementStorlek))*elementStorlek;
+        matX = random.nextInt(width/elementStorlek)*elementStorlek;
+        matY = random.nextInt(height/elementStorlek)*elementStorlek;
     }
     public void rörelse(){
         for(int i = ormDelar;i>0;i--) {
@@ -106,8 +105,9 @@ public class Panel extends JPanel implements ActionListener{
     }
     public void checkCollisions() {                //Suicide kollision
         for(int i = ormDelar;i>0;i--) {
-            if((x[0] == x[i])&& (y[0] == y[i])) {
+            if ((x[0] == x[i]) && (y[0] == y[i])) {
                 running = false;
+                break;
             }
         }
                                                    //Kollision vänster
