@@ -10,18 +10,8 @@ Här beskriver du kortfattat arbetets syfte/mål, arbetssätt, genomförande.
 
 ## Bakgrund
 
-Började med att dela upp dom i 3 olika klasser, och sedan började jag koda. Först fixade jag canvas samt började med att göra lite underlag till det jag ska göra senare. Det betyder att jag kommer förstå och veta exakt vad jag ska göra även om jag inte kodat på en vecka, då jag halft börjat på lite av allt. Det gör det enklare att förstå samt koda i längden. Sen så hade jag inte riktigt en plan efter det, utan började bara koda.
-
-Redovisa arbetets olika delar. Så att läsaren förstår vad du gjort och hur.
-
-Använd gärna bilder för att illustrera.
-
-För att lägga till bilder i markdown. Bilderna kan du ladda upp med Git som vanligt, länka dem med url eller filnamnet.
-
-```
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-```
+Började med att dela upp dom i 3 olika klasser, och sedan började jag koda. Först fixade jag canvas samt började med att göra lite underlag till det jag ska göra senare. Det betyder att jag kommer förstå och veta exakt vad jag ska göra även om jag inte kodat på en vecka, då jag halft börjat på lite av allt. Det gör det enklare att förstå samt koda i längden. Sen så hade jag inte riktigt en plan efter det, utan började bara koda. Stötte på en del problem som jag inte kunna lösa själv, så var tvugnen att googla på lösningar. Men förstår dom lösningar jag googlat. Men det har ändå flytit på bra och har haft en tydlig struktur som jag följt genom mitt kodande.
+ 
 
 ![NTI Gymnasiet Umeå Logo](https://raw.githubusercontent.com/jensnti/Webbprojekt/master/mallar/nti_logo_white_umea.svg)
 
@@ -29,7 +19,6 @@ Format: ![Alt Text](url)
 
 Mycket lärorikt och känns som att jag förstår mycket  mer efter detta projekt. Det hjälpte att använda ny kod och inte ta insperation från sitt projekt tidigare. Så har lärt mig mycket och fått ett bättre flyt när jag kodar.
 
-Här beskriver du vad som har gått bra i ditt projekt och analyserar varför. Hur ska du upprepa framgångarna.
 
 ## Negativa erfarenheter
 
@@ -37,9 +26,10 @@ Jag är fortfarande inte helt hundra på hur man ska "börja". Utan var tvugnen 
 
 Sen har det gått ganska segt ibland då jag inte fick ta insperation från mitt förra, så kanske lite mer frustrerande att koda men det var mer lärorikt. Så kanske frustrationen som var mest negativ.
 
-Här beskriver du det som du anser har gått mindre bra med ditt projekt och analyserar hur du kan undvika detta i framtida projekt.
 
 ## Sammanfattning
+
+
 
 Här redovisar du dina slutsatser, erfarenheter och lärdomar. Reflektera över din produkt och dess/dina utvecklingsmöjligheter.
 Vad kan vidareutvecklas och finns det utrymme att bygga vidare på projektet.
